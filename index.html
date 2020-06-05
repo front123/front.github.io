@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<style>
+    h1,h2{
+        font-family: helvetica;
+    }
+    body {
+        /* background-color: rgba(192, 192, 192, 0.2); */
+    }
+    .rq-em{
+        color: #ff424f;
+    }
+    .question{
+        margin-left: 30px;
+    }
+</style>
+<body>
+    <h1>Unified Modeling Language Theory Test</h1>
+    <form action="" method="POST">
+        <table border="0" cellspacing="5px">
+            <tr>
+                <td>Test Subject:</td>
+                <td>Unified Modeling Language</td>
+                <td>Time:</td>
+                <td>100 minute</td>
+                <td>Score:100</td>
+            </tr>
+            <tr>
+                <td>Class:</td>
+                <td><select style="width: 180px;">
+                    <option value="class1">Class 1</option>
+                    <option value="class2">Class 2</option>
+                </select></td>
+                <td>Student ID:</td>
+                <td><input type="list" placeholder="001"></td>
+                <td>Name:</td>
+                <td><input type="text" placeholder="Darcy"></td>
+            </tr>
+        </table>
+        <h1>1、Fill in the blanks(5 points per space, 20 points total)</h1>
+        <div class="question">
+        <p>1.The full anme of UML in Chinese is <input type="text"></p>
+        <p>2.The most prominent feature of the object is <input type="text"> <input type="text"> <input type="text"></p>
+        </div>
+        <h1>2、Mutiple choice question(10 points per space, 20 points total)</h1>
+        <div class="question">
+            <p>1.The relationship between UML and software engineering is :</p>
+            <input type="radio" name="relation">(A) UML is software engineering <br>
+            <input checked type="radio" name="relation">(B) UML participates in several stages of the software development process in software engineering <br>
+            <input type="radio" name="relation">(C) UML has nothing to do with software engineering <br>
+            <input type="radio" name="relation">(D) UML is part of software engineering <br>
+            <p>2.Java language support:</p>
+            <input type="radio" checked name="support">(A) Single inheritance <br>
+            <input type="radio" checked name="support">(B) Multiple inheritance <br>
+            <input type="radio" checked name="support">(C) Single inheritance and multiple inheritance support <br>
+            <input type="radio" checked name="support">(D) Single inheritance and multiple inheritance are not support<br>
+        </div>
+        <h1>3、Multiple choice(10 points per space, 20 points total)</h1>
+        <div class="question">
+            <p>1.The granularity of the use case is divided into the following three:</p>
+            <input type="checkbox" checked name="cases">(A) Overview level <br>
+            <input checked type="checkbox" name="cases">(B) Demand level <br>
+            <input type="checkbox" name="cases">(C) User target level <br>
+            <input type="checkbox" checked name="cases">(D) Sub-function level <br>
+            <p>2.The class diagram consists of which of the following three parts:</p>
+            <input type="checkbox" checked name="parts">(A) Name <br>
+            <input type="checkbox" checked name="parts">(B) Attribute <br>
+            <input type="checkbox" checked name="parts">(C) Operation <br>
+            <input type="checkbox" name="parts">(D) Function <br>
+        </div>
+        <h1>4、True or False(10 points per space, 20 points total)</h1>
+        <div class="question">
+            <p>1.Use case diagrams are only used to communicate and communicate with customers to determine demand. 
+                <input type="radio"  name="q1-choose">&#10003
+                <input type="radio" checked name="q1-choose">&#10007
+            </p>
+            <p>2.In the state diagram, the termination state allows any number of multiples in a state diagram. 
+                <input type="radio" checked name="q2-choose">&#10003
+                <input type="radio" name="q2-choose">&#10007
+            </p>
+        </div>
+        <h1>5、Short answer question(20 points per space, 20 points total)</h1>
+        <div class="question">
+           <p> 1.Briefly describe what the model is and how it behaves?</p>
+            <textarea name="answer" id="" cols="50" rows="10"></textarea>
+        </div>
+        <input type="submit" value="Calculating score">
+        
+    </form>
+</body> 
+</html>
