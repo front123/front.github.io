@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        width: 100%;
+        text-align: center;
+    }
+    .top-panel{
+        width: 100%;
+        height: 400px;
+        background: url('./road0.jpg');
+        background-size: cover;
+        background-position: center;
+        color: white;
+        z-index: -1;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .shadow{
+        position:absolute;
+        width: 100%;
+        height: 400px;
+        background-color: rgba(90, 89, 89, 0.25);
+    }
+    .top-line{
+        height: 50px;
+        width: 100%;
+    }
+    .cv{
+        float: left;
+        position: relative;
+        left: 60px;
+        top: 20px;
+    }
+    .head-img{
+        width: 100px;
+        width: 100px;
+        border-radius: 50%;
+        position: relative;
+        top: 50px;
+    }
+    ul{
+        float: right;
+        list-style: none;
+        position: relative;
+        top: 20px;
+        right: 50px;
+    }
+    ul li{
+        float: left;
+        margin-right: 15px;
+        cursor: pointer;
+    }
+    ul li:hover{
+        color: #2c3e4f;
+    }
+    .simple-info-box{
+        position: relative;
+        text-align: center;
+        top: 60px;
+    }
+    .name{
+        font-size: 30px;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .identity{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serifa;
+    }
+    .simple-info-box .func button{
+        width: 150px;
+        background-color: #3b954e;
+        color: white;
+        font-size: 16px;
+        padding: 8px 0;
+        outline: none;
+        border: none;
+        margin: 10px 5px;
+        cursor: pointer;
+    }
+    .other-func{
+        width: 100%;
+        position: relative;
+        top: 90px;
+        text-align: center;
+    }
+    .other-func div{
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        background-color: grey;
+        border-radius: 50%;
+        text-align: center;
+        margin: 5px;
+        cursor: pointer;
+    }
+    .other-func img{
+        margin: 10px;
+        width: 30px;
+        height: 30px;
+    }
+    .content-card{
+        box-sizing: border-box;
+        width: 80%;
+        display: inline-block;
+        height: 240px;
+        border: 1px solid gainsboro;
+        border-radius: 10px;
+        padding: 20px 15px;
+        box-shadow: 2px 4px 10px 4px rgba(128, 128, 128, 0.897);
+    }
+    .left-box{
+        float: left;
+        margin-right: 80px;
+        width: 40%;
+    }
+    .title{
+        text-align: left;
+        font-size: 30px;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 10px;
+    }
+    .left-box p{
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    a{
+        text-decoration: none;
+    }
+    .right-box{
+        float: left;
+        text-align: left;
+    }
+    table{
+        border: 0;
+        margin: 0;
+        border-collapse: collapse;
+    }
+    table td{
+        padding: 6px 0px 6px 100px;
+    }
+    table th{
+        padding-left: 5px;
+    }
+    @media screen and (max-width: 1195px) {
+        .left-box{
+            clear: both;
+            width: 100%;
+        }
+        .right-box{
+            width: 100%;
+            clear: both;
+        }
+        .content-card{
+            height: fit-content;
+            width: 50%;
+        }
+    }
+</style>
+<body>
+    <div class="top-panel">
+        <div class="shadow"></div>
+        <div class="top-line">
+            <p class="cv">MY RESUME</p>
+            <ul>
+                <li>ABOUT</li>
+                <li>SKILLS</li>
+                <li>PORTFOLIO</li>
+                <li>EXPERIENCE</li>
+                <li>CONTACT</li>
+                </ul> 
+        </div>
+        <img src="./guanxi.jpg" class="head-img">
+        <div class="simple-info-box">
+            <p class="name">Front Liang</p>
+            <p class="identity">WEB DEVLOPER, FRONTEND ENGINEER, DATABASE ADMINISTRATOR</p>
+            <div class="func">
+                <button>Hire Me</button>
+                <button>Download CV</button>
+            </div>
+        </div>
+        <div class="other-func">
+            <div>
+                <img src="./facebook-outline.png" alt="">
+            </div>
+            <div>
+                <img src="./twitter-outline.png" alt="">
+            </div>
+            <div>
+                <img src="./logo-googleplus.png" alt="">
+            </div>
+            <div>
+                <img src="./weibo.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="content-card">
+        <div class="left-box">
+            <p class="title">About</p>
+            <p>
+                Hello! I am Front Liang. Web Devloper, frontend engineer and database administrator.
+            </p>
+            <p>
+                This is my resume, it is a HTML resume. Through this resume, you can understand all aspects of me.
+                Anyone can contact me by facebook, twitter or weibo.
+                <a href="#1">More</a>
+            </p>
+        </div>
+        <div class="right-box">
+            <p class="title">
+                Basic Information
+            </p>
+            <table>
+                <tr>
+                    <th>AGE:</th>
+                    <td>24</td>
+                </tr>
+                <tr>
+                    <th>EMAIL:</th>
+                    <td>frontlf@qq.com</td>
+                </tr>
+                <tr>
+                    <th>PHONE:</th>
+                    <td>+86 15016780757</td>
+                </tr>
+                <tr>
+                    <th>ADDRESS:</th>
+                    <td>City GuangZhou, Guangdong, CHINA</td>
+                </tr>
+                <tr>
+                    <th>LANGUAGE:</th>
+                    <td>English, Chiness</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body> 
+</html>
